@@ -39,8 +39,7 @@ jobs:
       - name: Configure to AWS S3
         uses: aws-actions/configure-aws-credentials@v4\
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          role-to-asume: arn:aws:iam::372397487816:role/ranga.rayapudi.dev
           aws-region: ${{ secrets.AWS_REGION }}
           source_dir: out
           
