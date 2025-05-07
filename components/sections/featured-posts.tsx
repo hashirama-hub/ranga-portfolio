@@ -55,9 +55,13 @@ export function FeaturedPosts() {
               </CardContent>
               <CardFooter>
                 <Button variant="ghost" className="p-0 h-auto" asChild>
-                  <Link href={`/blog/${post.slug}`}>
+                <a
+                    href={`${post.slug}`}
+                    target="_blank"
+                    className="inline-flex items-center text-primary hover:underline"
+                  >
                     Read More <ArrowRight className="ml-2 h-4 w-4" />
-                  </Link>
+                  </a>
                 </Button>
               </CardFooter>
             </Card>

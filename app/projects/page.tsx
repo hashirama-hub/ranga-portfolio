@@ -53,14 +53,14 @@ export default function ProjectsPage() {
                   </div>
                   <div className="flex gap-3 mt-auto">
                     <Button size="sm" variant="outline" asChild>
-                      <Link href={project.github} target="_blank" rel="noopener noreferrer">
+                      <a href={project.github} target="_blank" rel="noopener noreferrer">
                         <Github className="mr-2 h-4 w-4" /> Code
-                      </Link>
+                      </a>
                     </Button>
                     <Button size="sm" asChild>
-                      <Link href={project.demo} target="_blank" rel="noopener noreferrer">
+                      <a href={project.demo} target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="mr-2 h-4 w-4" /> Demo
-                      </Link>
+                      </a>
                     </Button>
                   </div>
                 </div>

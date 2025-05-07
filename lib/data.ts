@@ -128,7 +128,7 @@ export const projects = [
     id: 2,
     title: "ShareNRide",
     description:
-      "A Ridesharing app build to .",
+      "A Ridesharing app build built using Angular and PHP, allowing users to request and share rides and connect with drivers.",
     image:
       "https://img.freepik.com/free-vector/taxi-app-concept_23-2148496627.jpg?semt=ais_hybrid&w=740",
     tags: ["Angular", "PHP", "Bootstrap"],
@@ -155,19 +155,19 @@ export const projects = [
       "An application for tracking personal expenses and managing budgets.",
     image:
       "https://images.pexels.com/photos/5483077/pexels-photo-5483077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    tags: ["React", "PostgreSQL", "MongoDB", "Node", "Express",  "GraphQl"],
+    tags: ["React", "PostgreSQL", "MongoDB", "Node", "Express", "GraphQl"],
     github: "https://github.com/RRRASU/Expense-tracker-graphQl-node",
     demo: "https://demo.com",
     featured: true,
-  }
+  },
 ];
 
 export const blogPosts = [
   {
     id: 1,
-    title: "Integrating AngulaJs with latest Angular versions",
+    title: "Integrating AngularJs 1.x with latest Angular versions.",
     excerpt:
-      "Learn how to integrate AngularJs1.x with the latest Angular 2-19 version for a smooth transition.",
+      "Learn how to integrate AngularJs 1.x with the latest Angular 2-19 version for a smooth transition.",
     date: "2017-09-08",
     readTime: "5 min read",
     image:
@@ -179,7 +179,7 @@ export const blogPosts = [
     id: 2,
     title: "Promises Vs Observables",
     excerpt:
-      "Compare different state management approaches in React applications.",
+      "Why you should use Observables over Promises in Angular applications.",
     date: "2017-09-05",
     readTime: "7 min read",
     image:
@@ -196,7 +196,7 @@ export const blogPosts = [
     readTime: "6 min read",
     image:
       "https://images.pexels.com/photos/5483071/pexels-photo-5483071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    slug: "css-grid-vs-flexbox",
+    slug: "https://blog.logrocket.com/css-flexbox-vs-css-grid/",
     featured: false,
   },
   {
@@ -226,12 +226,12 @@ export const experiences = [
     position: "Sr Software Engineer",
     duration: "2022 - 2023",
     description:
-      "Designed and developed an innovative one stop application for all the TSYS employee to know about performance of their flagship api and products. Extensively involved in upgrading Techstack to Micro Front end architecture using Front End Technologies. Worked on integrating Azure AI apis to to create a Gen AI feature integrating with cloud DB's.",
+      "Designed and developed an innovative one stop shop application for all the TSYS employee to know about performance of their flagship api and products. Extensively involved in upgrading Techstack to Micro-Front-end architecture. Worked on integrating Azure AI apis to to create a Gen AI feature integrating with cloud DB's.",
   },
   {
     company: "Walmart",
     position: "Sr. Software Engineer",
-    duration: "2020 - 2020",
+    duration: "2020 - 2022",
     description:
       "Involved in developing Walmart's Global Sourcing and Procurement Platform. Deveoped in latest Angular and later migrated to React using Mirco Fornt End architecture, NodeJs and GraphQl.",
   },
@@ -268,6 +268,6 @@ export const testimonials = [
     content:
       "An exceptional developer who understands both design and technical requirements well. A great combination!",
     avatar:
-      "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://img.freepik.com/free-psd/contact-icon-illustration-isolated_23-2151903337.jpg?ga=GA1.1.1559892976.1746552117&semt=ais_hybrid&w=740",
   },
 ];
