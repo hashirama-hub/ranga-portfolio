@@ -43,8 +43,8 @@ jobs:
       - name: Configure to AWS S3
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-asume: arn:aws:iam::372397487816:role/ranga.rayapudi.dev
-          aws-region: ${{ secrets.AWS_REGION }}
+          role-to-assume: arn:aws:iam::372397487816:role/ranga.rayapudi.dev
+          aws-region: ${{ secrets.AWS_REGION}}
           source_dir: out
           
       # Step 7: Deploy to AWS S3
