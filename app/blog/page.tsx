@@ -44,7 +44,7 @@ export default function BlogPage() {
                     <span>{post.readTime}</span>
                   </div>
                   <h2 className="text-2xl font-bold mb-3 font-space group-hover:text-primary transition-colors">
-                    <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+                    <Link href={`${post.slug}`}>{post.title}</Link>
                   </h2>
                   <p className="text-muted-foreground mb-6">
                     {post.excerpt}

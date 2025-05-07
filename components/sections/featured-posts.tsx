@@ -49,7 +49,7 @@ export function FeaturedPosts() {
                   <span>{post.readTime}</span>
                 </div>
                 <h3 className="text-xl font-bold mb-2 font-space group-hover:text-primary transition-colors">
-                  <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+                  <a href={`${post.slug}`} target="_blank">{post.title}</a>
                 </h3>
                 <p className="text-muted-foreground">{post.excerpt}</p>
               </CardContent>
