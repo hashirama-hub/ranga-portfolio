@@ -44,6 +44,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: arn:aws:iam::372397487816:role/ranga.rayapudi.dev
+          role-session-name: upload-portfolio-s3
           aws-region: ${{ secrets.AWS_REGION}}
           source_dir: out
           
