@@ -49,4 +49,6 @@ jobs:
           
       # Step 7: Deploy to AWS S3
       - name: Deploy to AWS S3
-        run: aws s3 sync ./out s3://${{ secrets.AWS_S3_BUCKET }}
+        run: aws s3 sync ./out s3://${{ secrets.AWS_S3_BUCKET }} --delete
+        env:
+          AWS_DEFAULT_REGION: ${{ secrets.AWS_REGION }}
