@@ -172,7 +172,7 @@ export const blogPosts = [
     readTime: "5 min read",
     image:
       "https://media.licdn.com/dms/image/v2/C4D12AQEM3Za9n-pofQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1520161271942?e=1752105600&v=beta&t=fqEGNr2sfJQtr7KfLVpy_mrzxoTAO9WkIGWopOx7g34",
-    slug: "integrating-angularjs-angular",
+    slug: "https://www.linkedin.com/pulse/integrating-angular-1-2-ranga-rayapudi/",
     featured: true,
   },
   {
