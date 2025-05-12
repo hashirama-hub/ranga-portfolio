@@ -43,7 +43,7 @@ jobs:
       - name: Configure to AWS S3
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::372397487816:role/ranga.rayapudi.dev
+          role-to-assume: ${{ secrets.ROLES_TO_ASSUME }}
           aws-region: ${{ secrets.AWS_REGION}}
           source_dir: out
           
