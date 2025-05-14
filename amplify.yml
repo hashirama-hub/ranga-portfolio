@@ -10,7 +10,7 @@ frontend:
 
         # Cài đặt các dependencies của dự án bằng pnpm
         # Lệnh này sẽ chỉ chạy sau khi pnpm đã được cài đặt ở bước trên
-        - pnpm install --frozen-lockfile
+        - pnpm install
     build:
       commands:
         # Chạy script build (ví dụ: "pnpm run build")
